@@ -47,7 +47,7 @@
         layer_keypad {
             bindings = <
 &kp EQUAL  &kp N1     &kp N2           &kp N3                &kp N4            &kp N5  &trans                                                 &mo 3   &kp N6        &kp KP_NUM         &kp KP_EQUAL           &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp Q      &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp LESS_THAN     &kp T   &none                                                  &none   &kp Y         &kp GREATER_THAN   &kp PIPE               &kp KP_N9      &kp KP_MINUS     &kp BSLH
+&kp TAB    &kp Q      &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp LESS_THAN     &kp T   &none                                                  &none   &kp Y         &kp GREATER_THAN   &kp PIPE               &none          &kp KP_MINUS     &kp BSLH
 &kp ESC    &kp COLON  &kp EQUAL        &kp LEFT_PARENTHESIS  &kp LEFT_BRACE    &kp G   &none   &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none   &kp QUESTION  &kp RIGHT_BRACE    &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp SEMICOLON    &kp SQT
 &kp LSHFT  &kp Z      &kp X            &kp ASTERISK          &kp LEFT_BRACKET  &kp B                      &kp HOME      &kp PG_UP                     &kp N         &kp RIGHT_BRACKET  &kp COMMA              &kp COMMA      &kp DOT          &kp RSHFT
 &mo 2      &kp GRAVE  &kp CAPS         &kp LEFT              &trans                    &trans  &trans     &trans        &trans     &trans     &trans                &kp UP             &kp DOWN               &kp KP_DOT     &kp RBKT         &mo 2
@@ -76,11 +76,11 @@
 
         layer_Layer__4 {
             bindings = <
-&trans  &trans  &trans    &trans        &trans     &trans  &trans                                      &trans  &trans  &trans        &trans        &trans        &trans  &trans
-&trans  &trans  &trans    &trans        &trans     &trans  &trans                                      &trans  &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &trans
-&trans  &trans  &kp LEFT  &kp UP_ARROW  &kp RIGHT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp N0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
-&trans  &trans  &trans    &kp DOWN      &trans     &trans                  &trans      &trans                  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-&trans  &trans  &trans    &trans        &trans             &trans  &trans  &trans      &trans  &trans  &trans          &trans        &trans        &trans        &trans  &trans
+&trans  &trans    &trans    &trans        &trans      &trans  &trans                                      &trans  &trans     &trans        &trans        &trans        &trans     &trans
+&trans  &trans    &trans    &trans        &trans      &trans  &trans                                      &trans  &kp LS(F)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans     &trans
+&trans  &kp LEFT  &kp LEFT  &kp UP_ARROW  &kp RIGHT   &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LS(G)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp N0     &trans
+&trans  &trans    &trans    &kp DOWN      &kp DOLLAR  &trans                  &trans      &trans                  &kp CARET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp CARET  &trans
+&trans  &trans    &trans    &trans        &trans              &trans  &trans  &trans      &trans  &trans  &trans             &trans        &trans        &trans        &trans     &trans
             >;
         };
     };
