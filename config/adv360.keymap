@@ -47,7 +47,7 @@
         layer_keypad {
             bindings = <
 &kp EQUAL  &kp N1     &kp N2           &kp N3                &kp N4            &kp N5  &trans                                                 &mo 3   &kp N6        &kp KP_NUM         &kp KP_EQUAL           &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp Q      &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp LESS_THAN     &kp T   &none                                                  &none   &kp Y         &kp GREATER_THAN   &kp PIPE               &none          &kp KP_MINUS     &kp BSLH
+&kp TAB    &kp Q      &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp LESS_THAN     &kp T   &none                                                  &none   &kp Y         &kp GREATER_THAN   &kp PIPE               &kp SLASH      &kp KP_MINUS     &kp BSLH
 &kp ESC    &kp COLON  &kp EQUAL        &kp LEFT_PARENTHESIS  &kp LEFT_BRACE    &kp G   &none   &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none   &kp QUESTION  &kp RIGHT_BRACE    &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp SEMICOLON    &kp SQT
 &kp LSHFT  &kp Z      &kp X            &kp ASTERISK          &kp LEFT_BRACKET  &kp B                      &kp HOME      &kp PG_UP                     &kp N         &kp RIGHT_BRACKET  &kp COMMA              &kp COMMA      &kp DOT          &kp RSHFT
 &mo 2      &kp GRAVE  &kp CAPS         &kp LEFT              &trans                    &trans  &trans     &trans        &trans     &trans     &trans                &kp UP             &kp DOWN               &kp KP_DOT     &kp RBKT         &mo 2
